@@ -1,5 +1,4 @@
 
-import Footer from '../Components/Footer'
 import React from 'react';
 import SearchBar from './SearchBar'
 import youtube from '../API/Youtube'

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
@@ -17,14 +18,15 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
+        <Link to='/watch'>
+          <div
+            className="btnss"
+            
+            onClick={console.log('hey')}
+          >
+            WATCH VIDEOS <i className='far fa-play-circle' />
+          </div>
+        </Link>
       </div>
     </div>
   );

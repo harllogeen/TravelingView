@@ -18,7 +18,6 @@ const App = () => {
         <Route path="/services" exact  element={<Services />} />
         <Route path="/watch" exact  element={<Watch />} />
         <Route path="/sign-up" exact  element={<SignUp />} />
-
       </Routes>
     </Router>
       

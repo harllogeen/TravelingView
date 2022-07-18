@@ -55,7 +55,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
+            <Link to='/watch'>Youtube</Link>
             <Link to='/'>Twitter</Link>
           </div>
         </div>
